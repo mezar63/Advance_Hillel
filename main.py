@@ -14,7 +14,7 @@ def parse_cookie(query: str) -> dict:
     cookie_dict = {}
 
     if not query:
-        return cookie_dict  # Return an empty dictionary if the input is empty
+        return cookie_dict
 
     pairs = query.split(';')
 
